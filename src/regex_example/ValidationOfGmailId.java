@@ -8,6 +8,7 @@ public class ValidationOfGmailId {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Gmail Id");
 		String email = scanner.next();
 		scanner.close();
 		Pattern pattern = Pattern.compile("([a-zA-Z]+)([a-zA-Z0-9_.])*@gmail.com");
